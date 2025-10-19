@@ -10,18 +10,17 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="  absolute  w-full z-50 ">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-element">
+    <nav className="  lg:absolute  w-full z-50  ">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-secondary">
         <div className="flex justify-between items-center py-4">
           {/* Left: Site Name */}
-          <div className="flex-shrink-0 hidden md:block">
-            <NavLink to="/" className="text-2xl font-medium  text-complement transition-colors">
+          <div className=" flex hidden lg:flex items-center justify-evenly">
+            <div>
+            <NavLink to="/" className="text-4xl font-medium  text-complement transition-colors">
              SOLEM
             </NavLink>
-          </div>
-
-          {/* Center: Desktop Links (hidden on mobile) */}
-          <div className="hidden md:flex space-x-8 mx-8">
+            </div>
+             <div className="hidden md:flex space-x-4 mx-8">
             <NavLink 
             to='/'
             className= {({isActive}) => `hover:text-primary hover:bg-secondary px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive ? 'text-secondary hover:text-complement':'' }`} 
@@ -48,6 +47,10 @@ const Navbar = () => {
             </NavLink>
           </div>
 
+          </div>
+
+          {/* Center: Desktop Links (hidden on mobile) */}
+         
           {/* Right: Cart Icon (visible on all screens) */}
           <div className="flex items-center ">
             <NavLink
@@ -74,7 +77,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Button (Hamburger) - visible only on mobile */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               onClick={toggleMenu}
               className="text-element hover:text-gray-900 p-2 rounded-md hover:bg-gray-100 transition-colors"
@@ -110,7 +113,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Dropdown - visible only on mobile when open */}
         {isOpen && (
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200">
               <NavLink
                 to="/"

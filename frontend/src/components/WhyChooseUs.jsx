@@ -2,7 +2,7 @@ import WhyCard from "./WhyCard";
 
 const WhyChooseUs = () => {
   return (
-    <section className="font-manrope bg-bgg">
+    <section className="font-manrope bg-bgg my-4">
       
       <div className="max-w-7xl mx-auto px-6 py-8 md:py-20 text-center">
         <h2 className="text-3xl font-semibold text-secondary mb-10">

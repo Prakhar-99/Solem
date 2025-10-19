@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Fotter from "../components/Fotter";
-import ProductCard from "../components/ProductCard";
 
 export default function Applayout() {
   return (

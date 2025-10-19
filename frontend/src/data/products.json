@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Solar Panel X100",
+    "category": "Solar Panel",
+    "price": 12999,
+    "image": "https://cdn.pixabay.com/photo/2016/10/05/22/46/solar-panel-1714338_1280.jpg",
+    "description": "High-efficiency monocrystalline solar panel for residential rooftops."
+  },
+  {
+    "id": 2,
+    "name": "Solar Panel X200",
+    "category": "Solar Panel",
+    "price": 18999,
+    "image": "https://cdn.pixabay.com/photo/2017/01/20/15/06/solar-1993642_1280.jpg",
+    "description": "Durable polycrystalline solar panel for all weather conditions."
+  },
+  {
+    "id": 3,
+    "name": "Solar Panel Max 400W",
+    "category": "Solar Panel",
+    "price": 25999,
+    "image": "https://cdn.pixabay.com/photo/2018/10/30/14/46/solar-3785038_1280.jpg",
+    "description": "High-power solar panel ideal for commercial setups."
+  },
+  {
+    "id": 4,
+    "name": "Solar Inverter Pro 5000",
+    "category": "Inverter",
+    "price": 10999,
+    "image": "https://cdn.pixabay.com/photo/2016/03/27/21/34/solar-1282311_1280.jpg",
+    "description": "Smart inverter with automatic grid switch and Wi-Fi monitoring."
+  },
+  {
+    "id": 5,
+    "name": "Hybrid Inverter 3.5kW",
+    "category": "Inverter",
+    "price": 15999,
+    "image": "https://cdn.pixabay.com/photo/2017/10/21/20/54/power-ev-2879728_1280.jpg",
+    "description": "Advanced hybrid inverter supporting solar + grid input."
+  },
+  {
+    "id": 6,
+    "name": "Battery Max 200Ah",
+    "category": "Battery",
+    "price": 9999,
+    "image": "https://cdn.pixabay.com/photo/2015/12/09/17/32/battery-1080231_1280.jpg",
+    "description": "Deep-cycle battery for long lasting solar energy storage."
+  },
+  {
+    "id": 7,
+    "name": "Battery Ultra 250Ah",
+    "category": "Battery",
+    "price": 12499,
+    "image": "https://cdn.pixabay.com/photo/2018/06/17/17/29/battery-3488794_1280.jpg",
+    "description": "High capacity solar battery ideal for home or commercial use."
+  },
+  {
+    "id": 8,
+    "name": "Solar Charge Controller 30A",
+    "category": "Controller",
+    "price": 3999,
+    "image": "https://cdn.pixabay.com/photo/2017/09/12/11/54/solar-2748583_1280.jpg",
+    "description": "30A MPPT charge controller for efficient charging."
+  },
+  {
+    "id": 9,
+    "name": "Solar Charge Controller 60A",
+    "category": "Controller",
+    "price": 5499,
+    "image": "https://cdn.pixabay.com/photo/2018/04/24/07/42/solar-3340764_1280.jpg",
+    "description": "60A MPPT controller for larger photovoltaic arrays."
+  },
+  {
+    "id": 10,
+    "name": "MC4 Connector Pair",
+    "category": "Accessory",
+    "price": 299,
+    "image": "https://cdn.pixabay.com/photo/2017/12/28/10/12/cable-3045875_1280.jpg",
+    "description": "Set of MC4 connectors for solar panel wiring."
+  },
+  {
+    "id": 11,
+    "name": "Solar Cable 4 mm² (10 m)",
+    "category": "Accessory",
+    "price": 599,
+    "image": "https://cdn.pixabay.com/photo/2014/12/16/22/25/cable-570611_1280.jpg",
+    "description": "10 meter solar DC cable for panel connection."
+  },
+  {
+    "id": 12,
+    "name": "Roof Mounting Kit",
+    "category": "Accessory",
+    "price": 1499,
+    "image": "https://cdn.pixabay.com/photo/2019/03/14/13/32/roof-4056669_1280.jpg",
+    "description": "Mounting rails & clamps for rooftop panels."
+  },
+  {
+    "id": 13,
+    "name": "Solar Battery Rack",
+    "category": "Accessory",
+    "price": 2199,
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/27/battery-charging-1866963_1280.jpg",
+    "description": "Metal rack to hold solar battery modules."
+  },
+  {
+    "id": 14,
+    "name": "Solar Panel Cleaner Kit",
+    "category": "Accessory",
+    "price": 799,
+    "image": "https://cdn.pixabay.com/photo/2019/01/03/04/04/cleaning-3903337_1280.jpg",
+    "description": "Brush + telescopic pole kit for panel cleaning."
+  },
+  {
+    "id": 15,
+    "name": "Solar Monitoring Device",
+    "category": "Accessory",
+    "price": 2599,
+    "image": "https://cdn.pixabay.com/photo/2017/02/01/22/02/solar-2035377_1280.jpg",
+    "description": "Device to monitor panel output and system stats."
+  },
+  {
+    "id": 16,
+    "name": "Junction Box IP65",
+    "category": "Accessory",
+    "price": 499,
+    "image": "https://cdn.pixabay.com/photo/2016/03/10/20/02/electrical-1246047_1280.jpg",
+    "description": "Weatherproof junction box for wiring."
+  },
+  {
+    "id": 17,
+    "name": "Solar Panel Flex 100W",
+    "category": "Solar Panel",
+    "price": 6999,
+    "image": "https://cdn.pixabay.com/photo/2017/08/29/00/22/solar-2683651_1280.jpg",
+    "description": "Flexible solar panel for curved surfaces."
+  },
+  {
+    "id": 18,
+    "name": "Solar Panel Foldable 200W",
+    "category": "Solar Panel",
+    "price": 8499,
+    "image": "https://cdn.pixabay.com/photo/2016/03/09/15/23/solar-1249526_1280.jpg",
+    "description": "Foldable solar panel for camping and portable use."
+  },
+  {
+    "id": 19,
+    "name": "Lithium Battery 100Ah",
+    "category": "Battery",
+    "price": 13999,
+    "image": "https://cdn.pixabay.com/photo/2019/11/04/08/48/battery-4597460_1280.jpg",
+    "description": "Lightweight lithium battery with high cycle life."
+  },
+  {
+    "id": 20,
+    "name": "Solar Driver Light (10W)",
+    "category": "Accessory",
+    "price": 1299,
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/07/22/solar-1867752_1280.jpg",
+    "description": "LED driver light using solar power, useful for small setups."
+  }
+]
