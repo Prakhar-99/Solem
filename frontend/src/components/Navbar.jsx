@@ -23,25 +23,25 @@ const Navbar = () => {
              <div className="hidden md:flex space-x-4 mx-8">
             <NavLink 
             to='/'
-            className= {({isActive}) => `hover:text-primary hover:bg-secondary px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive ? 'text-secondary hover:text-complement':'' }`} 
+            className= {({isActive}) => `hover:text-primary hover:bg-secondary px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive ? 'text-element hover:text-complement':'' }`} 
              >
               Home
             </NavLink>
              <NavLink 
             to='/document'
-            className= {({isActive}) => `hover:text-primary hover:bg-secondary px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive ? 'text-secondary  hover:text-complement':'' }`} 
+            className= {({isActive}) => `hover:text-primary hover:bg-secondary px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive ? 'text-element  hover:text-complement':'' }`} 
              >
               Docs
             </NavLink>
              <NavLink 
             to='/products'
-            className= {({isActive}) => `hover:text-primary hover:bg-secondary px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive ? 'text-secondary  hover:text-complement':'' }`} 
+            className= {({isActive}) => `hover:text-primary hover:bg-secondary px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive ? 'text-element  hover:text-complement':'' }`} 
              >
               Products
             </NavLink>
              <NavLink 
             to='/contact'
-            className= {({isActive}) => `hover:text-primary hover:bg-secondary px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive ? 'text-secondary  hover:text-complement':'' }`} 
+            className= {({isActive}) => `hover:text-primary hover:bg-secondary px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive ? 'text-element  hover:text-complement':'' }`} 
              >
               Contact
             </NavLink>
