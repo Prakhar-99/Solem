@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="  lg:absolute  w-full z-50  ">
+    <nav className="   w-full z-20  ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-secondary">
         <div className="flex justify-between items-center py-4">
           {/* Left: Site Name */}
@@ -123,11 +123,11 @@ const Navbar = () => {
                 Home
               </NavLink>
               <NavLink
-                to="/about"
+                to="/document"
                 className="block text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-base font-medium transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                About
+                documents
               </NavLink>
               <NavLink
                 to="/products"

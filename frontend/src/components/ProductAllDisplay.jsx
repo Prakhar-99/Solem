@@ -12,7 +12,7 @@ const ProductAllDisplay = () => {
     const product = products;
  
     // section for creating paggination variables
-const LoadingSize = 8;
+const LoadingSize = 9;
  const [totalcurent, settotalcurent] = useState(LoadingSize);
  const totalProduct = product.length;
 // check whether the more products is avilable or Not
@@ -36,12 +36,12 @@ const LoadingSize = 8;
                 <div className="text-center lg:my-4 mb-12 w-full px-4">
                     <h1 className="text-5xl ">Avilable Products</h1>
                 </div>
-             <div className=" flex-col px-8 md:flex-row w-full justify-center items-center min-h-[70vh] lg:px-8 ">
+             <div className=" flex-col px-8 md:flex-row w-full justify-center items-center lg:px-8 ">
                 {loading ? (
                     <p className="text-5xl text-complement text-center">LOADING</p>
                     ) : (
                             
-                        <div className=" grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                        <div className="  grid grid-cols-1 md:grid-cols-3  gap-6">
                                 {
                                     product.slice(0,totalcurent).map((item) => {
                                        return <ProductCard key={item.id}  product = {item} />
