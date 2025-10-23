@@ -1,4 +1,4 @@
-import AboutIMg from "../assets/media/image/aboutsola.png"
+import AboutIMg from "../../assets/media/image/aboutsola.png"
 
 
 export default function SolarAbout() {

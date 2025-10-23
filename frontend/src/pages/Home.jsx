@@ -1,7 +1,7 @@
-import WhyChooseUs from '../components/WhyChooseUs'
-import HeroSec from '../components/HeroSec'
-import HomeProducts from '../components/HomeProducts'
-import HomeAboutSec from '../components/HomeAboutSec'
+import WhyChooseUs from '../components/HomeComponent/WhyChooseUs'
+import HeroSec from '../components/HomeComponent/HeroSec'
+import HomeProducts from '../components/HomeComponent/HomeProducts'
+import HomeAboutSec from '../components/HomeComponent/HomeAboutSec'
 
 function Home() {
   return (

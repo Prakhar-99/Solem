@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductAllDisplay from '../components/ProductAllDisplay'
+import ProductAllDisplay from '../components/productsComponent/ProductAllDisplay'
 
 function Product() {
   return (

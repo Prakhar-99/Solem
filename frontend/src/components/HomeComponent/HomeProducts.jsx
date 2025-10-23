@@ -1,6 +1,6 @@
 import  { useContext } from "react";
-import { ProductContext } from "../context/ProductContext";
-import ProductCard from "./ProductCard";
+import { ProductContext } from "../../context/ProductContext";
+import ProductCard from "../productsComponent/ProductCard";
 import { useNavigate } from "react-router-dom";
 
 const HomeProducts = ({ limit = 4 }) => {

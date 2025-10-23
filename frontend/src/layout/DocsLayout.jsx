@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom"
-import DocsNav from "../components/DocsNav"
+import DocsNav from "../components/other/DocsNav"
 
 
 const DocsLayout = () => {
@@ -12,10 +12,10 @@ const DocsLayout = () => {
 
 
   return (
-    <div className="overflow-x-hidden">
+    <div className=" mb-8 lg:mt-16">
       <DocsNav />
 
-    <main className="overflow-x-hidden">
+    <main className="block">
   <Outlet />
   </main>
   </div>

@@ -28,7 +28,7 @@ export const routes = [
         element: <DocsLayout />,    
         children: [
           
-              { index: true, path:"docs-home", element: <DocsHome/> },      
+              { path:"docs-home", element: <DocsHome/> },      
               { path: "getting-started", element: <GettingStarted /> },
               { path: "installation", element: <InstallationGuide /> },
               { path: "Maintanance", element: <MeintananceGuide/> },

@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="   w-full z-20  ">
+    <nav className=" lg:absolute  w-full z-20  ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-secondary">
         <div className="flex justify-between items-center py-4">
           {/* Left: Site Name */}
@@ -28,7 +28,7 @@ const Navbar = () => {
               Home
             </NavLink>
              <NavLink 
-            to='/document'
+            to='/document/docs-home'
             className= {({isActive}) => `hover:text-primary hover:bg-secondary px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive ? 'text-element  hover:text-complement':'' }`} 
              >
               Docs
@@ -117,28 +117,28 @@ const Navbar = () => {
             <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200">
               <NavLink
                 to="/"
-                className="block text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-base font-medium transition-colors"
+                className="block text-secondary hover:text-complement px-3 py-2 rounded-md text-base font-medium transition-colors"
                 onClick={() => setIsOpen(false)} // Close menu on link click
               >
                 Home
               </NavLink>
               <NavLink
                 to="/document"
-                className="block text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-base font-medium transition-colors"
+                className="block text-secondary hover:text-complement px-3 py-2 rounded-md text-base font-medium transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 documents
               </NavLink>
               <NavLink
                 to="/products"
-                className="block text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-base font-medium transition-colors"
+                className="block text-secondary hover:text-complement px-3 py-2 rounded-md text-base font-medium transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 Products
               </NavLink>
               <NavLink
                 to="/contact"
-                className="block text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-base font-medium transition-colors"
+                className="block text-secondary hover:text-complement px-3 py-2 rounded-md text-base font-medium transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 Contact

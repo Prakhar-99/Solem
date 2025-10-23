@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import Myimg from '../assets/media/image/hero.png';
+import Myimg from '../../assets/media/image/hero.png';
 import { motion } from "framer-motion";
 
 function HeroSec() {
