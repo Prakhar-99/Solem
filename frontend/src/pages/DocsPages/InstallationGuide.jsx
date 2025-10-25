@@ -1,6 +1,6 @@
-import React from "react";
 
-export default function InstallationGuide() {
+
+const  InstallationGuide = () => {
   return (
    <section className="w-full flex mb-4 ">
        <div className=" max-w-7xl px-6 lg:px-12 mt-4">
@@ -15,7 +15,7 @@ export default function InstallationGuide() {
         </p>
       </div>
 
-      <section className="mb-8">
+      <div className="mb-8">
         <h2 className="text-2xl font-semibold text-complement mb-3">1. Preparation</h2>
         <ul className="list-disc ml-6 space-y-1">
           <li>Inspect all components: panels, racking, inverters, wiring, connectors.</li>
@@ -23,7 +23,7 @@ export default function InstallationGuide() {
           <li>Plan layout: use design tools to maximize spacing and sun exposure.</li>
           <li>Shut down main power before any electrical work.</li>
         </ul>
-      </section>
+      </div>
 
       <div className="mb-8">
         <h2 className="text-2xl font-semibold text-complement mb-3">2. Mounting Structure Setup</h2>
@@ -102,3 +102,6 @@ export default function InstallationGuide() {
     </section>
   );
 }
+
+
+export default InstallationGuide

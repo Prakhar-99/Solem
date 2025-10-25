@@ -6,10 +6,10 @@ const GettingStarted = () => {
       <div className="max-w-7xl px-6 lg:px-12 mt-6">
         {/* 1. Introduction */}
         <div className="mb-12">
-          <h1 className="text-2xl md:text-3xl font-semibold text-complement">
+          <h1 className="text-2xl font-semibold text-complement">
             1. Introduction
           </h1>
-          <p className="mt-4 text-md text-secondarylite leading-relaxed">
+          <p className="mt-4 text-md  leading-relaxed">
             Switching to solar energy is one of the smartest investments you can make.
             <br />
             This guide helps you understand how to select the best{" "}
@@ -21,32 +21,32 @@ const GettingStarted = () => {
 
         {/* 2. Choosing the Right Solar Panel */}
         <div className="mb-8">
-          <h2 className="text-2xl md:text-3xl font-semibold text-complement">
+          <h2 className="text-2xl text-complement font-semibold">
             2. Choosing the Right Solar Panel
           </h2>
-          <p className="text-sm text-secondarylite mt-4">
+          <p className="text-sm  mt-4">
             Solem Solar offers multiple product lines tailored for different applications:
           </p>
 
-          <table className="min-w-full table-auto text-center border-x-2 border-b-2 border-complement mt-6">
+          <table className="min-w-full  text-center border-x-2 border-b-2  border-t-2 border-complement mt-6">
             <thead className="border-b-2 border-complement text-lg">
               <tr>
                 <th className="py-4 capitalize">Power Output</th>
                 <th className="py-4 capitalize">Ideal For</th>
               </tr>
             </thead>
-            <tbody className="text-sm align-middle border-complement">
-              <tr>
-                <td className="px-4 py-4">340W</td>
-                <td className="px-4 py-4">Small homes, minimal shading</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-4">410W</td>
-                <td className="px-4 py-4">Medium-sized homes or small offices</td>
+            <tbody className="text-sm  border-complement">
+              <tr className="border-b">
+                <td className=" py-4">340W</td>
+                <td className=" py-4">Small homes, minimal shading</td>
               </tr>
               <tr className="border-b">
-                <td className="px-4 py-4">540W</td>
-                <td className="px-4 py-4">Commercial buildings and large rooftops</td>
+                <td className="py-4">410W</td>
+                <td className=" py-4">Medium-sized homes or small offices</td>
+              </tr>
+              <tr className="border-b ">
+                <td className=" py-4">540W</td>
+                <td className=" py-4">Commercial buildings and large rooftops</td>
               </tr>
             </tbody>
           </table>
@@ -61,7 +61,7 @@ const GettingStarted = () => {
             Before installation, perform a quick evaluation:
           </h3>
 
-          <ul className="list-disc grid grid-cols-1 md:grid-cols-2 gap-y-3 mt-6 ml-5 text-element text-md">
+          <ul className="list-disc grid grid-cols-1 md:grid-cols-2 gap-y-3 mt-6 ml-5  text-md">
             <li>Orientation: South-facing roofs yield maximum output.</li>
             <li>
               Tilt Angle: Ideally equal to your latitude (e.g., 25–30° in India).
@@ -81,7 +81,7 @@ const GettingStarted = () => {
           <h2 className="text-2xl md:text-3xl font-semibold text-complement">
             4. Estimating Power and Savings
           </h2>
-          <p className="mt-4 text-md text-secondarylite">
+          <p className="mt-4 text-md ">
             Use this simple method to estimate energy production:
           </p>
 
@@ -89,14 +89,14 @@ const GettingStarted = () => {
             Daily Energy (kWh) = System Size (kW) × 4.5 (average sun hours)
           </h3>
 
-          <p className="mt-4 text-md text-secondarylite leading-relaxed">
+          <p className="mt-4 text-md text-leading-relaxed">
             <span className="text-lg text-secondary font-medium">Example: </span>
             <br />
             A 3 kW system produces about 13.5 kWh/day, saving roughly ₹2,000–₹2,500/month
             depending on your local electricity rate.
           </p>
 
-          <p className="mt-4 text-md text-secondarylite">
+          <p className="mt-4 text-md ">
             Solem Solar also provides an online{" "}
             <span className="font-medium text-secondary">Savings Calculator</span> to
             estimate ROI, payback period, and CO₂ offset.

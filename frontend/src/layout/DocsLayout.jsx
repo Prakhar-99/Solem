@@ -15,7 +15,7 @@ const DocsLayout = () => {
     <div className=" mb-8 lg:mt-16">
       <DocsNav />
 
-    <main className="block">
+    <main className="">
   <Outlet />
   </main>
   </div>
