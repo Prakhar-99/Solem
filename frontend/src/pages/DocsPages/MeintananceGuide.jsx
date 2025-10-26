@@ -107,38 +107,38 @@ Solem Solar’s smart monitoring system (via app or web dashboard) allows:
            
             
           <div className="mt-6">
-            <table className="min-w-full border-complement border-2  text-center">
-              <thead className="text-lg border-complement border-b px-4">
+            <table className="min-w-full   text-center">
+              <thead className="text-lg bg-complement text-primary">
                 <tr>
-                  <th className="py-4 px-4">symptoms</th>
-                  <th className="py-4 capitilize">possible cause</th>
-                  <th className="py-4 ">sollution</th>
+                  <th className="py-4 px-4  border border-complement border-2">symptoms</th>
+                  <th className="py-4  border border-complement border-2">possible cause</th>
+                  <th className="py-4  border border-complement border-2">sollution</th>
                 </tr>
               </thead>
 
               <tbody>
-                <tr className="border-b border-complement ">
-                  <td className="py-4 px-4">Monthly</td>
-                  <td className="py-4 px-4">
+                <tr className="">
+                  <td className="py-4 px-4 border border-complement border-2">Monthly</td>
+                  <td className="py-4 px-4 border border-complement border-2" >
                     Visual check for dust, debris, bird droppings
                   </td>
-                  <td className="py-4 px-4">Maintain efficency</td>
+                  <td className="py-4 px-4 border border-complement border-2">Maintain efficency</td>
                 </tr>
 
-                <tr className="border-b border-complement">
-                  <td className="py-4 px-4">Quaterly</td>
-                  <td className="py-4 px-4">
+                <tr className="">
+                  <td className="py-4 px-4 border border-complement border-2">Quaterly</td>
+                  <td className="py-4 px-4 border border-complement border-2">
                     Wash panels with mild water & soft brush
                   </td>
-                  <td className="py-4 px-4">Prevent buildup</td>
+                  <td className="py-4 px-4 border border-complement border-2">Prevent buildup</td>
                 </tr>
 
-                <tr className="border-b border-complement">
-                  <td className="py-4 px-4">Yearly</td>
-                  <td className="py-4 px-4">
+                <tr className="">
+                  <td className="py-4 px-4 border border-complement border-2">Yearly</td>
+                  <td className="py-4 px-4 border border-complement border-2">
                     Professional inspection of wiring & structure
                   </td>
-                  <td className="py-4 px-4">Saftey&warranty validations</td>
+                  <td className="py-4 px-4 border border-complement border-2">Saftey&warranty validations</td>
                 </tr>
               </tbody>
             </table>
