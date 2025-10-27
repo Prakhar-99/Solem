@@ -28,7 +28,7 @@ const Navbar = () => {
               Home
             </NavLink>
              <NavLink 
-            to='/document/docs-home'
+            to='/document/getting-started'
             className= {({isActive}) => `hover:text-primary hover:bg-secondary px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive ? 'text-element  hover:text-complement':'' }`} 
              >
               Docs
@@ -123,7 +123,7 @@ const Navbar = () => {
                 Home
               </NavLink>
               <NavLink
-                to="/document"
+                to="/document/getting-started"
                 className="block text-secondary hover:text-complement px-3 py-2 rounded-md text-base font-medium transition-colors"
                 onClick={() => setIsOpen(false)}
               >

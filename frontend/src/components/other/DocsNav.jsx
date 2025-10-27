@@ -8,8 +8,7 @@ const DocsNavbar = () => {
     setIsOpen(!isOpen);
   }
 
-  const navItems = [
-    { name: 'DocsHome',  path:"docs-home" }, 
+  const navItems = [ 
     { name: 'GettingStarted', path: 'getting-started' },
     { name: 'InstallationGuide', path: 'installation'  },
     { name: 'MaintenanceGuide', path: 'Maintanance'  },

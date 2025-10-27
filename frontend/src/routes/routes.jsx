@@ -12,8 +12,7 @@ import GettingStarted from "../pages/DocsPages/GettingStarted";
 import InstallationGuide from "../pages/DocsPages/InstallationGuide"
 import MeintananceGuide from "../pages/DocsPages/MeintananceGuide";
 import SystemComponent from "../pages/DocsPages/SystemComponent";
-import DocsHome from "../pages/DocsPages/DocsHome";
-
+ 
 export const routes = [
   {
     element: <Applayout />, // Normal pages layout
@@ -27,8 +26,7 @@ export const routes = [
         path: "/document",
         element: <DocsLayout />,    
         children: [
-          
-              { path:"docs-home", element: <DocsHome/> },      
+              
               { path: "getting-started", element: <GettingStarted /> },
               { path: "installation", element: <InstallationGuide /> },
               { path: "Maintanance", element: <MeintananceGuide/> },

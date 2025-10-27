@@ -28,25 +28,25 @@ const GettingStarted = () => {
             Solem Solar offers multiple product lines tailored for different applications:
           </p>
 
-          <table className="min-w-full  text-center border-x-2 border-b-2  border-t-2 border-complement mt-6">
-            <thead className="border-b-2 border-complement text-lg">
+          <table className="min-w-full  text-center mt-6">
+            <thead className=" bg-complement text-primary text-lg">
               <tr>
-                <th className="py-4 capitalize">Power Output</th>
-                <th className="py-4 capitalize">Ideal For</th>
+                <th className="py-4  border-2 border-complement capitalize">Power Output</th>
+                <th className="py-4  border-2 border-complement capitalize">Ideal For</th>
               </tr>
             </thead>
             <tbody className="text-sm  border-complement">
               <tr className="border-b">
-                <td className=" py-4">340W</td>
-                <td className=" py-4">Small homes, minimal shading</td>
+                <td className=" py-4 border border-complement border-2">340W</td>
+                <td className=" py-4 border border-complement border-2">Small homes, minimal shading</td>
               </tr>
               <tr className="border-b">
-                <td className="py-4">410W</td>
-                <td className=" py-4">Medium-sized homes or small offices</td>
+                <td className="py-4 border border-complement border-2">410W</td>
+                <td className=" py-4 border border-complement border-2">Medium-sized homes or small offices</td>
               </tr>
               <tr className="border-b ">
-                <td className=" py-4">540W</td>
-                <td className=" py-4">Commercial buildings and large rooftops</td>
+                <td className=" py-4 border border-complement border-2">540W</td>
+                <td className=" py-4 border border-complement border-2">Commercial buildings and large rooftops</td>
               </tr>
             </tbody>
           </table>

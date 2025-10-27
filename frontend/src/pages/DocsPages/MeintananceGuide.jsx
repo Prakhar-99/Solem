@@ -22,38 +22,38 @@ const MeintananceGuide = () => {
           </p>
 
           <div className=" mt-4">
-            <table className="min-w-full border-complement border-2  text-center">
-              <thead className="text-lg border-complement border-b px-4">
+            <table className="min-w-full   text-center">
+              <thead className="text-lg border border-complement border-2   px-4 bg-complement text-primary">
                 <tr>
-                  <th className="py-4 px-4">Frequency</th>
-                  <th className="py-4 ">Task</th>
-                  <th className="py-4 ">Purpose</th>
+                  <th className="py-4 px-4   ">Frequency</th>
+                  <th className="py-4 px-4 ">Task</th>
+                  <th className="py-4 px-4  ">Purpose</th>
                 </tr>
               </thead>
 
               <tbody>
-                <tr className="border-b border-complement ">
-                  <td className="py-4 px-4">Monthly</td>
-                  <td className="py-4 px-4">
+                <tr className=" border-complement ">
+                  <td className="py-4 px-4 border border-complement border-2">Monthly</td>
+                  <td className="py-4 px-4 border border-complement border-2">
                     Visual check for dust, debris, bird droppings
                   </td>
-                  <td className="py-4 px-4">Maintain efficency</td>
+                  <td className="py-4 px-4 border border-complement border-2">Maintain efficency</td>
                 </tr>
 
-                <tr className="border-b border-complement">
-                  <td className="py-4 px-4">Quaterly</td>
-                  <td className="py-4 px-4">
+                <tr className=" border-complement">
+                  <td className="py-4 px-4 border border-complement border-2">Quaterly</td>
+                  <td className="py-4 px-4 border border-complement border-2">
                     Wash panels with mild water & soft brush
                   </td>
-                  <td className="py-4 px-4">Prevent buildup</td>
+                  <td className="py-4 px-4 border border-complement border-2">Prevent buildup</td>
                 </tr>
 
-                <tr className="border-b border-complement">
-                  <td className="py-4 px-4">Yearly</td>
-                  <td className="py-4 px-4">
+                <tr className=" border-complement">
+                  <td className="py-4 px-4 border border-complement border-2">Yearly</td>
+                  <td className="py-4 px-4 border border-complement border-2">
                     Professional inspection of wiring & structure
                   </td>
-                  <td className="py-4 px-4">Saftey&warranty validations</td>
+                  <td className="py-4 px-4 border border-complement border-2">Saftey&warranty validations</td>
                 </tr>
               </tbody>
             </table>
@@ -76,87 +76,106 @@ const MeintananceGuide = () => {
         </div>
 
         <div className="mt-4">
-    <h1 className="text-2xl text-complement mb-4 font-semibold"> 3. Monitoring System</h1>     
-<p >
-Solem Solar’s smart monitoring system (via app or web dashboard) allows:
-</p>
-<ul className="list-disc ml-6 space-y-1 mb-4 mt-4">
-<li>Real-time energy production view</li>
+          <h1 className="text-2xl text-complement mb-4 font-semibold">
+            {" "}
+            3. Monitoring System
+          </h1>
+          <p>
+            Solem Solar’s smart monitoring system (via app or web dashboard)
+            allows:
+          </p>
+          <ul className="list-disc ml-6 space-y-1 mb-4 mt-4">
+            <li>Real-time energy production view</li>
 
-<li>Fault alerts & inverter warnings</li>
+            <li>Fault alerts & inverter warnings</li>
 
-<li>Historical graphs for ROI tracking</li>
-</ul>
-<p>If performance drops less than 10%, check for:</p>
-<ul className="list-disc ml-6 space-y-1 mt-4">
-  <li>New shading sources</li>
+            <li>Historical graphs for ROI tracking</li>
+          </ul>
+          <p>If performance drops less than 10%, check for:</p>
+          <ul className="list-disc ml-6 space-y-1 mt-4">
+            <li>New shading sources</li>
 
-<li>Dirt accumulation</li>
+            <li>Dirt accumulation</li>
 
-<li>Faulty inverter or cable damage</li>
-</ul>
-
-
-
+            <li>Faulty inverter or cable damage</li>
+          </ul>
         </div>
 
-{/*  */}
+        {/*  */}
         <div className="mt-8">
-<h1 className="text-2xl text-complement font-semibold mb-4">4. Troubleshooting Quick Guide</h1>
+          <h1 className="text-2xl text-complement font-semibold mb-4">
+            4. Troubleshooting Quick Guide
+          </h1>
 
-           
-            
           <div className="mt-6">
             <table className="min-w-full   text-center">
               <thead className="text-lg bg-complement text-primary">
                 <tr>
-                  <th className="py-4 px-4  border border-complement border-2">symptoms</th>
-                  <th className="py-4  border border-complement border-2">possible cause</th>
-                  <th className="py-4  border border-complement border-2">sollution</th>
+                  <th className="py-4 px-4  border border-complement border-2">
+                    symptoms
+                  </th>
+                  <th className="py-4  border border-complement border-2">
+                    possible cause
+                  </th>
+                  <th className="py-4  border border-complement border-2">
+                    sollution
+                  </th>
                 </tr>
               </thead>
 
               <tbody>
                 <tr className="">
-                  <td className="py-4 px-4 border border-complement border-2">Monthly</td>
-                  <td className="py-4 px-4 border border-complement border-2" >
+                  <td className="py-4 px-4 border border-complement border-2">
+                    Monthly
+                  </td>
+                  <td className="py-4 px-4 border border-complement border-2">
                     Visual check for dust, debris, bird droppings
                   </td>
-                  <td className="py-4 px-4 border border-complement border-2">Maintain efficency</td>
+                  <td className="py-4 px-4 border border-complement border-2">
+                    Maintain efficency
+                  </td>
                 </tr>
 
                 <tr className="">
-                  <td className="py-4 px-4 border border-complement border-2">Quaterly</td>
+                  <td className="py-4 px-4 border border-complement border-2">
+                    Quaterly
+                  </td>
                   <td className="py-4 px-4 border border-complement border-2">
                     Wash panels with mild water & soft brush
                   </td>
-                  <td className="py-4 px-4 border border-complement border-2">Prevent buildup</td>
+                  <td className="py-4 px-4 border border-complement border-2">
+                    Prevent buildup
+                  </td>
                 </tr>
 
                 <tr className="">
-                  <td className="py-4 px-4 border border-complement border-2">Yearly</td>
+                  <td className="py-4 px-4 border border-complement border-2">
+                    Yearly
+                  </td>
                   <td className="py-4 px-4 border border-complement border-2">
                     Professional inspection of wiring & structure
                   </td>
-                  <td className="py-4 px-4 border border-complement border-2">Saftey&warranty validations</td>
+                  <td className="py-4 px-4 border border-complement border-2">
+                    Saftey&warranty validations
+                  </td>
                 </tr>
               </tbody>
             </table>
           </div>
-           </div>
-
-
-           {/*  */}
-           <div className="mt-8">
-            <h1 className="text-2xl text-complement font-semibold">5. Warranty & Support</h1>
-            <ul className="list-disc mt-4 space-y-1 ml-6">
-              <li>Panel Warranty: 12 years product, 25 years performance</li>
-              <li>Inverter Warranty: 10 years standard</li>
-              <li>Racking Warranty: 20 years structural integrity</li>
-            </ul>
-           </div>
         </div>
-      
+
+        {/*  */}
+        <div className="mt-8">
+          <h1 className="text-2xl text-complement font-semibold">
+            5. Warranty & Support
+          </h1>
+          <ul className="list-disc mt-4 space-y-1 ml-6">
+            <li>Panel Warranty: 12 years product, 25 years performance</li>
+            <li>Inverter Warranty: 10 years standard</li>
+            <li>Racking Warranty: 20 years structural integrity</li>
+          </ul>
+        </div>
+      </div>
     </section>
   );
 };
