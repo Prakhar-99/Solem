@@ -24,10 +24,10 @@ const MeintananceGuide = () => {
           <div className=" mt-4">
             <table className="min-w-full   text-center">
               <thead className="text-lg border border-complement border-2   px-4 bg-complement text-primary">
-                <tr>
-                  <th className="py-4 px-4   ">Frequency</th>
-                  <th className="py-4 px-4 ">Task</th>
-                  <th className="py-4 px-4  ">Purpose</th>
+                <tr className=" ">
+                  <th className=" py-2   ">Frequency</th>
+                  <th className=" py-2 ">Task</th>
+                  <th className=" py-2  ">Purpose</th>
                 </tr>
               </thead>
 
@@ -111,13 +111,13 @@ const MeintananceGuide = () => {
             <table className="min-w-full   text-center">
               <thead className="text-lg bg-complement text-primary">
                 <tr>
-                  <th className="py-4 px-4  border border-complement border-2">
+                  <th className="py-2  border border-complement border-2">
                     symptoms
                   </th>
-                  <th className="py-4  border border-complement border-2">
+                  <th className="py-2  border border-complement border-2">
                     possible cause
                   </th>
-                  <th className="py-4  border border-complement border-2">
+                  <th className="py-2  border border-complement border-2">
                     sollution
                   </th>
                 </tr>

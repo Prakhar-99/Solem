@@ -1,6 +1,8 @@
 import React from "react";
+import { useCart } from "../../context/CartContext";
 
 const ProductCard = ({ product }) => {
+  const {dispatch} = useCart();
   return (
     <div className="bg-primary rounded-2xl border border-[2px] border-secondarylite shadow-md p-4 hover:shadow-lg transition-all duration-300 ">
       <img
@@ -12,7 +14,11 @@ const ProductCard = ({ product }) => {
       <p className="text-sm text-secondarylite mb-2">{product.description}</p>
       <div className="flex justify-between items-center pt-4">
         <span className="text-lg font-bold text-complement">₹{product.price}</span>
-        <button className="bg-complement text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-all cursor-pointer">
+        <button className="bg-complement text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-all cursor-pointer"
+         onClick={() =>
+          dispatch({ type: "ADD_TO_CART", payload: product })
+        }
+        >
           Add to cart
         </button>
       </div>

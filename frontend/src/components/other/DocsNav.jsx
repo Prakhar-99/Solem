@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom'; // Assuming you're using React Router for navigation
+import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom"; // Assuming you're using React Router for navigation
 // import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'; // Install @heroicons/react if not already
 
 const DocsNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-  }
+  };
 
-  const navItems = [ 
-    { name: 'GettingStarted', path: 'getting-started' },
-    { name: 'InstallationGuide', path: 'installation'  },
-    { name: 'MaintenanceGuide', path: 'Maintanance'  },
-    { name: 'SystemComponent', path:  "system-component"},
+  const navItems = [
+    { name: "GettingStarted", path: "getting-started" },
+    { name: "InstallationGuide", path: "installation" },
+    { name: "MaintenanceGuide", path: "Maintanance" },
+    { name: "SystemComponent", path: "system-component" },
   ];
 
   return (
@@ -25,30 +25,38 @@ const DocsNavbar = () => {
               <NavLink
                 key={item.path}
                 to={item.path}
-                className={({isActive}) => `text-gray-900 hover:text-primary-green px-3 py-2 rounded-md text-sm font-medium transition-colors  ${isActive? "bg-complement text-primary" : ""}  `}
+                className={({ isActive }) =>
+                  `text-gray-900 hover:text-primary-green px-3 py-2 rounded-md text-sm font-medium transition-colors  ${
+                    isActive ? "bg-complement text-primary" : ""
+                  }  `
+                }
               >
                 {item.name}
-              </ NavLink>
+              </NavLink>
             ))}
           </div>
 
           {/* Mobile Hamburger Button */}
           <div className="md:hidden absolute left-0">
-        <button
+            <button
               onClick={toggleMenu}
-              className={`text-element hover:text-gray-900 p-2 rounded-md hover:bg-gray-100 transition-colors   ${!isOpen ? 'block' : 'hidden'}`}
+              className={`text-element hover:text-gray-900 p-2 rounded-md hover:bg-gray-100 transition-colors   ${
+                !isOpen ? "block" : "hidden"
+              }`}
               aria-label="Toggle menu"
-
             >
-             Documentations
+              Documentations
             </button>
 
             <button
-            onClick={toggleMenu}
-              className={`text-element hover:text-gray-900 p-2 rounded-md hover:bg-gray-100 transition-colors   ${isOpen ? 'block' : 'hidden'}`}
-              aria-label="Toggle menu">
-                close
-              </button>
+              onClick={toggleMenu}
+              className={`text-element hover:text-gray-900 p-2 rounded-md hover:bg-gray-100 transition-colors   ${
+                isOpen ? "block" : "hidden"
+              }`}
+              aria-label="Toggle menu"
+            >
+              close
+            </button>
           </div>
         </div>
 
