@@ -15,8 +15,11 @@ const ProductCard = ({ product }) => {
       <div className="flex justify-between items-center pt-4">
         <span className="text-lg font-bold text-complement">₹{product.price}</span>
         <button className="bg-complement text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-all cursor-pointer"
-         onClick={() =>
+         onClick={() => {
           dispatch({ type: "ADD_TO_CART", payload: product })
+          alert("item added to cart")
+         }
+
         }
         >
           Add to cart
