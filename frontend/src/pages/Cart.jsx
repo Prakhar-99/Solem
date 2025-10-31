@@ -22,8 +22,14 @@ const Cart = () => {
       </div>
 
       {cart.length > 0 && (
-        <div className="mt-6 p-4 bg-gray-100 rounded-xl text-right text-lg font-bold">
-          Total: ₹{total}
+        <div className="mt-6 p-4 bg-gray-100 rounded-xl  text-lg font-bold flex justify-between items-center">
+          <div>
+            <h1>Total: ₹{total}</h1>
+          </div>
+          <div className="ml-8 md:px-0">
+            <button type="button" className="px-4 py-2 bg-complement rounded-lg text-primary text-sm"> BUY NOW</button>
+          </div>
+          
         </div>
       )}
     </div>

@@ -27,17 +27,18 @@ const Navbar = () => {
              >
               Home
             </NavLink>
-             <NavLink 
-            to='/document/getting-started'
-            className= {({isActive}) => `hover:text-primary hover:bg-secondary px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive ? 'text-element  hover:text-complement':'' }`} 
-             >
-              Docs
-            </NavLink>
+          
              <NavLink 
             to='/products'
             className= {({isActive}) => `hover:text-primary hover:bg-secondary px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive ? 'text-element  hover:text-complement':'' }`} 
              >
               Products
+            </NavLink>
+               <NavLink 
+            to='/document/getting-started'
+            className= {({isActive}) => `hover:text-primary hover:bg-secondary px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive ? 'text-element  hover:text-complement':'' }`} 
+             >
+              Docs
             </NavLink>
              <NavLink 
             to='/contact'
@@ -49,13 +50,13 @@ const Navbar = () => {
 
           </div>
 
-          {/* Center: Desktop Links (hidden on mobile) */}
+         
          
           {/* Right: Cart Icon (visible on all screens) */}
           <div className="flex items-center ">
             <NavLink
               to="/cart"
-              className={({isActive}) => ` text-element hover:text-secondary p-2 rounded-full hover:bg-primary transition-colors ${isActive ? ' text-secondary' : ''}`}
+              className={({isActive}) => ` text-primary bg-secondary hover:text-secondary text-center p-2 rounded-full hover:bg-primary transition-colors ${isActive ? ' text-secondary' : ''}`}
               title="View Cart"
             >
               {/* Simple SVG cart icon */}
