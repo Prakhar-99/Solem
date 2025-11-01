@@ -56,7 +56,7 @@ const Navbar = () => {
           <div className="flex items-center ">
             <NavLink
               to="/cart"
-              className={({isActive}) => ` text-primary bg-secondary hover:text-secondary text-center p-2 rounded-full hover:bg-primary transition-colors ${isActive ? ' text-secondary' : ''}`}
+              className={({isActive}) => ` text-primary  hover:text-secondary text-center p-2 rounded-full hover:bg-primary transition-colors ${isActive ? ' bg-complement text-primary' : 'bg-secondary'}`}
               title="View Cart"
             >
               {/* Simple SVG cart icon */}
