@@ -12,6 +12,7 @@ import GettingStarted from "../pages/DocsPages/GettingStarted";
 import InstallationGuide from "../pages/DocsPages/InstallationGuide"
 import MeintananceGuide from "../pages/DocsPages/MeintananceGuide";
 import SystemComponent from "../pages/DocsPages/SystemComponent";
+import SavingRecomndation from "../components/calculs/SavingRecomndation";
  
 export const routes = [
   {
@@ -34,6 +35,7 @@ export const routes = [
             
         ],
       },
+      {path: "caluculte", element: <SavingRecomndation />}
     ],
   },
   {
