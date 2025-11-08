@@ -3,7 +3,7 @@ import AboutIMg from "../../assets/media/image/aboutsola.png"
 
 export default function SolarAbout() {
   return (
-    <section className="w-full  py-16  bg-complement">
+    <section className="w-full  py-16  bg-secondary">
       <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-col lg:flex-row items-center justify-between px-6 lg:px-8 gap-12">
 
         {/* Left Section: Text Content */}
@@ -19,7 +19,7 @@ export default function SolarAbout() {
           </p>
 
           <button
-            className="inline-block px-6 py-3 bg-secondarybg text-secondary text-sm font-medium  shadow-md rounded-lg hover:bg-element hover:text-primary  transition-all duration-200"
+            className="inline-block px-6 py-3 bg-complement text-primary text-sm font-medium  shadow-md rounded-lg hover:bg-element hover:text-primary  transition-all duration-200"
           >
             Learn More
           </button>
@@ -27,7 +27,7 @@ export default function SolarAbout() {
 
         {/* Right Section: Image with Rounded Corners */}
         <div className="flex-1  ">
-          <div className="rounded-[2rem] overflow-hidden shadow-xl relative">
+          <div className="rounded-[2rem] overflow-hidden shadow-xl">
             <img
               src={AboutIMg}
               alt="Modern home with solar panels"
